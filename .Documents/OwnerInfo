@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Fungsi untuk menampilkan informasi
+print_info_owner() {
+    local label=$1
+    local value=$2
+    printf "\e[35m• %s: %s\n" "$label" "$value"
+}
+
+print_info_owner " "
+print_info_owner "[-------------------------------------"
+print_info_owner "  Support By"
+print_info_owner "[-------------------------------------"
+print_info_owner "          @Fredrik Fornwall"
+print_info_owner "[-------------------------------------"
+print_info_owner "  [•] https://github.com/fornwall "
+print_info_owner " "
+print_info_owner "[-------------------------------------"
+print_info_owner "            @Kz.tutorial"
+print_info_owner "[-------------------------------------"
+print_info_owner "  [•] https://youtube.com/@Kz.tutorial "
+print_info_owner "---------------------------------------"
+print_info_owner " "

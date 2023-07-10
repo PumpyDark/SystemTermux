@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Fungsi untuk menampilkan informasi dengan warna
+print_info() {
+    local label=$1
+    local value=$2
+    printf ""
+    printf "\e[1m\e[92m• %s:\e[0m %s\n" "$label" "$value"
+}
+
+# Menampilkan informasi SystemInfo
+print_info "Nama Paket" "com.termux"
+print_info "Kode Versi" "0.122.5"
+print_info "Ukuran File" "107,22M"
+print_info "Tanda Apk" "V1 + V2 + V3"
+print_info "Tersedia" "0.122.5(122)"
+print_info "Direktori Data" "/data/user/0/com.termux"
+print_info "Direktori APK" "/data/app/com.termux"
+print_info "UID" "10241"
+print_info "Support By" "@Fredrik Fornwall"
+print_info "Support By" "@Kz.tutorial"
+

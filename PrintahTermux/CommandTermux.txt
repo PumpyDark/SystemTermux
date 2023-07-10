@@ -1,0 +1,41 @@
+
+1. pkg update - Memperbarui daftar paket di Termux.
+   penggunaan: Jalankan perintah ini untuk memperbarui
+               daftar paket yang tersedia.
+
+2. pkg install nano - Menginstal editor teks Nano di Termux.
+   penggunaan: Jalankan perintah ini untuk 
+               menginstal editor teks Nano.
+
+3. ls - Menampilkan daftar file dan folder di direktori saat ini.
+   penggunaan: Jalankan perintah ini untuk melihat
+               file dan folder dalam direktori saat ini.
+
+4. cd - Berpindah ke direktori lain.
+   penggunaan: Jalankan perintah ini diikuti dengan
+               nama direktori untuk berpindah ke direktori tersebut.
+
+5. cp file1.txt file2.txt - Menyalin file1.txt menjadi file2.txt.
+   penggunaan: Jalankan perintah ini untuk menyalin
+               file1.txt menjadi file2.txt.
+
+6. mv file.txt folder - Memindahkan file.txt ke folder.
+   penggunaan: Jalankan perintah ini untuk memindahkan file.txt
+               ke folder.
+
+7. rm file.txt - Menghapus file.txt.
+   penggunaan: Jalankan perintah ini untuk 
+               menghapus file.txt.
+
+8. chmod +x script.sh - Memberikan izin eksekusi ke skrip shell script.sh.
+   penggunaan: Jalankan perintah ini untuk 
+               memberikan izin eksekusi ke skrip shell.
+
+9. python script.py - Menjalankan skrip Python dengan nama script.py.
+   penggunaan: Jalankan perintah ini untuk 
+               menjalankan skrip Python.
+
+10. ssh username@hostname - Terhubung ke mesin jarak jauh melalui SSH.
+    penggunaan: Jalankan perintah ini dengan mengganti 
+                username dan hostname sesuai dengan yang diminta.
+
